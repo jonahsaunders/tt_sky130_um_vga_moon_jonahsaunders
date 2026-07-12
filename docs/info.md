@@ -9,12 +9,28 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+This Tiny Tapeout project generates a real-time VGA animation of NASA’s Space Launch System orbiting a crescent moon against a star-filled background. A compact Minsky circle oscillator updates the rocket’s position once per video frame, while simple counters animate the flickering engine flames. 
+
 
 ## How to test
 
-Explain how to use your project
+Connect the VGA output to a compatible monitor or VGA capture device, then power the board and load the design. The playground animation should appear automatically once the system is running.
+
+Verify that:
+
+The monitor detects a stable VGA signal.
+The full animation is visible and centered on the screen.
+Shapes move smoothly without flickering or tearing.
+Colors display correctly.
+The animation loops continuously without freezing.
+
+For simulation testing, run the project testbench and confirm that the horizontal sync, vertical sync, and RGB outputs match the expected VGA timing. A waveform viewer or VGA simulation tool can be used to inspect the generated frames before testing on physical hardware.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Tiny Tapeout Demo Board with the project loaded
+VGA PMOD or compatible VGA output adapter
+VGA-compatible monitor or display
+VGA cable
+USB cable for power
+USB power source or computer
