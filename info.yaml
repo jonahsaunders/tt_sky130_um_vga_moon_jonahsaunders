@@ -1,7 +1,7 @@
 
 # Tiny Tapeout project information
 project:
-  title:        "VGA Artemis"      # Project title
+  title:        "tt_um_jonahsaunders_slsvga"      # Project title
   author:       "Jonah Saunders"      # Your name
   discord:      "jonahsaunders"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "VGA scene created with VGA Playground"      # One line description of what your project does
